@@ -7,6 +7,7 @@ resource "azurerm_resource_group" "rg" {
   location = var.location
 }#koi kisi ko kyn chahe 
 #hi who are you 
+#addition in line
 resource "azurerm_storage_account" "storage" {
   name                     = var.storage_account_name
   resource_group_name      = azurerm_resource_group.rg.name
